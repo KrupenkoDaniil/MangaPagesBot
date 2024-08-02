@@ -1,0 +1,2 @@
+class GettingChapterPageDescriptionError(Exception):
+    pass

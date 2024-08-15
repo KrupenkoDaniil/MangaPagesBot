@@ -25,7 +25,7 @@ async def main():
     dp.include_router(menu_router)
 
     await async_create_db()
-    await bot.set_my_commands(commands=bot_cmds, scope=BotCommandScopeAllPrivateChats())
+    # await bot.set_my_commands(commands=[], scope=BotCommandScopeAllPrivateChats())
     await dp.start_polling(bot)
 
 if __name__ == '__main__':
@@ -34,3 +34,7 @@ if __name__ == '__main__':
         asyncio.run(main())
     except KeyboardInterrupt or RuntimeError:
         pass
+
+
+
+#TODO: изменить/уменьшить размер кнопки комманд или вообще убрать их и сделать reply kb

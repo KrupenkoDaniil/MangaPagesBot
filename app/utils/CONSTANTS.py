@@ -1,7 +1,7 @@
 
-LINUX_MANGA_FOLDER_PATHW = ''
+LINUX_MANGA_FOLDER_PATH = '/home/daniil-mint/Public/Documents/MangaPagesBot/app/assets/manga pages'
 WINDOWS_MANGA_FOLDER_PATH = 'C:/Users/Ford/Local Projects/MangaBot/app/assets/manga pages'
-PC_MANGA_FOLDER_PATH = WINDOWS_MANGA_FOLDER_PATH
+PC_MANGA_FOLDER_PATH = LINUX_MANGA_FOLDER_PATH # change for your system
 
 DISK_MANGA_FOLDERS_PATH = '/Manga'
 

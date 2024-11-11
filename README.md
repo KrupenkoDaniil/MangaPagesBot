@@ -45,4 +45,4 @@
 ```
 https://oauth.yandex.ru/authorize?response_type=token&client_id=ВАШ CLIEN_ID
 ```
-+ Уточните путь для верменного изображеия в **файле CONSTANTS** в зависимости от вашей ОС; 
++ Уточните путь для верменного изображеия в **файле CONSTANTS** в зависимости от вашей ОС; не забудте создать assets/manga pages/

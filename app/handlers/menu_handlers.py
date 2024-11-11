@@ -112,7 +112,7 @@ async def load_photo(message: Message, state: FSMContext, bot: Bot):
         page_extension = page.file_path.split('.')[-1]
         page_caption = message.caption
         await bot.download_file(page.file_path, f'{PC_MANGA_FOLDER_PATH}/temp.{page_extension}')
-        
+
         # get metadata about pic
         chapter_number, page_number, description = get_chapter_page_description(page_caption, current_format)
 
@@ -134,7 +134,14 @@ async def load_photo(message: Message, state: FSMContext, bot: Bot):
     except PathExistsError:
         await message.answer(BOT_MESSAGES['errors']['page_already_exists_error'])
 
-    except Exception:
+    except AttributeError:
+        await message.answer(BOT_MESSAGES['errors']['no_user_account'])
+
+    except FileNotFoundError:
+        await message.answer(BOT_MESSAGES['errors']['wrong_local_dir'])
+
+    except Exception as e:
+        ic(e)
         await message.answer(BOT_MESSAGES['errors']['loading_error'])
         
 

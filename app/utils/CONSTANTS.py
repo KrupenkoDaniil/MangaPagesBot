@@ -1,5 +1,5 @@
 
-LINUX_MANGA_FOLDER_PATH = '/home/daniil-mint/Public/Documents/MangaPagesBot/app/assets/manga pages'
+LINUX_MANGA_FOLDER_PATH = '/home/daniil-mint/Documents/MangaPagesBot-main/app/assets/manga pages'
 WINDOWS_MANGA_FOLDER_PATH = 'C:/Users/Ford/Local Projects/MangaBot/app/assets/manga pages'
 PC_MANGA_FOLDER_PATH = LINUX_MANGA_FOLDER_PATH # change for your system
 
@@ -17,6 +17,10 @@ BOT_MESSAGES = {
             'loading_error': 'Не удалось загрузить страницу. Попробуйте еще раз.',
             'new_manga_already_exists_error': 'Извините, данная манга уже существует. Напишите новое название:',
             'page_already_exists_error': 'Страница с подобными данными уже существует. Пожалуйста, напишите другое описание.',
+            'no_user_account': 'Похоже, вас нет в базе данных и мы не может узать необходимую информацию (формат )',
+            'wrong_local_dir': 'Похоже, неправильно указа папка, в которой должен сохраняться временный файл. \
+                Убедитесь, что путь в файле CONSTANTS указан правильно',
+
     },
     'init': {
         'greeting': 'Добро пожаловать в Manga Pages Bot',

@@ -1,7 +1,7 @@
 
 LINUX_MANGA_FOLDER_PATH = '/home/daniil-mint/Documents/MangaPagesBot-main/app/assets/manga pages'
-WINDOWS_MANGA_FOLDER_PATH = 'C:/Users/Ford/Local Projects/MangaBot/app/assets/manga pages'
-PC_MANGA_FOLDER_PATH = LINUX_MANGA_FOLDER_PATH # change for your system
+WINDOWS_MANGA_FOLDER_PATH = r"H:\Local Projects\MangaPagesBot\app\assests\manga pages" # r чтобы создалась "сырая" строка, т.е. не обрабатывались спец символы
+PC_MANGA_FOLDER_PATH = WINDOWS_MANGA_FOLDER_PATH # change for your system
 
 DISK_MANGA_FOLDERS_PATH = '/Manga'
 

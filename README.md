@@ -43,6 +43,6 @@
   + TG_TOKEN: токен вашего тг-бота; можно найти у [**@BotFather**](https://t.me/BotFather)
   + YA_TOKEN: токен вашего яндекс приложения; для этого создайте [**яндекс id**](https://oauth.yandex.ru/client/new/id) и узнайте свой токет по такому шаблону:
 ```
-https://oauth.yandex.ru/authorize?response_type=token&client_id=ВАШ CLIEN_ID
+https://oauth.yandex.ru/authorize?response_type=token&client_id=ВАШ_CLIEN_ID
 ```
 + Уточните путь для верменного изображеия в **файле CONSTANTS** в зависимости от вашей ОС; не забудте создать assets/manga pages/
